@@ -4,7 +4,6 @@
 
 > 🌰 示例公众号：**AISPACE科技空间**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/QNWU7jFZnia19hwqa3MkjQVmq1bLmxfmWqR6pb8L1iaESdtPyLhsAxH3Eqiaia8urKUEMkUlxRPKj1wcdQaQ5AzNaA/0)
 
 > 即刻关注，体验 AI 智能创作的内容～
 
@@ -24,7 +23,6 @@
 
 访问管理界面：`http://your-domain.com:3000`（开发环境）或 `http://your-domain.com`（生产环境）
 
-![管理界面截图](https://via.placeholder.com/800x400?text=TrendPublish+Admin+Dashboard)
 
 ## 🌟 主要功能
 

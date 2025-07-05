@@ -18,7 +18,6 @@ import {
   PlusOutlined, 
   EditOutlined, 
   DeleteOutlined, 
-  TestOutlined,
   SyncOutlined,
   LinkOutlined
 } from '@ant-design/icons'
@@ -248,7 +247,7 @@ const DataSources: React.FC = () => {
           <Tooltip title="测试连接">
             <Button
               size="small"
-              icon={<TestOutlined />}
+              icon={<SyncOutlined />}
               onClick={() => handleTest(record)}
             />
           </Tooltip>

@@ -28,7 +28,13 @@ import {
   ClockCircleOutlined,
   FireOutlined,
   ThunderboltOutlined,
-  HeartOutlined
+  HeartOutlined,
+  FileOutlined,
+  BarChartOutlined,
+  PieChartOutlined,
+  ApiOutlined,
+  MonitorOutlined,
+  SettingOutlined
 } from '@ant-design/icons'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area, PieChart, Pie, Cell } from 'recharts'
 
@@ -396,7 +402,7 @@ const Dashboard: React.FC = () => {
                       <div>
                         <Text type="secondary" style={{ fontSize: 13 }}>{item.description}</Text>
                         <div style={{ marginTop: 4 }}>
-                          <Tag size="small" color="blue">{item.user}</Tag>
+                          <Tag color="blue">{item.user}</Tag>
                         </div>
                       </div>
                     }

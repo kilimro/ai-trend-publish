@@ -31,6 +31,7 @@
     "@mendable/firecrawl-js": "^1.8.1",
     "@supabase/supabase-js": "^2.46.1",
     "@types/sharp": "^0.31.1",
+    "@uiw/react-json-view": "^2.0.0-alpha.32",
     "cheerio": "^1.0.0",
     "cli-progress": "^3.12.0",
     "dotenv": "^14.3.2",

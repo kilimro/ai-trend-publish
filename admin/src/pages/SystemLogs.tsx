@@ -18,6 +18,7 @@ import {
   PlayCircleOutlined
 } from '@ant-design/icons'
 import dayjs from 'dayjs'
+import JsonView from '@uiw/react-json-view'
 
 const { Option } = Select
 const { RangePicker } = DatePicker
@@ -302,7 +303,7 @@ const SystemLogs: React.FC = () => {
                   fontSize: 11,
                   fontFamily: 'monospace'
                 }}>
-                  {JSON.stringify(log.details, null, 2)}
+                  <JsonView value={log.details} collapsed={1} style={{ background: 'none', fontSize: 12 }} />
                 </div>
               )}
             </div>
