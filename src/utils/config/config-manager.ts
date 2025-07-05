@@ -70,8 +70,10 @@ export class ConfigManager {
   public async initDefaultConfigSources(): Promise<void> {
     // 环境变量
     this.addSource(new EnvConfigSource());
+    
     // Database
-    if (await this.get<boolean>('ENABLE_DB')) {
+    const enableDb = await this.get<boolean>('ENABLE_DB').catch(() => false);
+    if (enableDb) {
       console.log('DB enabled');
       const db = await MySQLDB.getInstance({
         host: process.env.DB_HOST,
